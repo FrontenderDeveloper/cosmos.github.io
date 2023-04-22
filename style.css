@@ -296,7 +296,7 @@ section.vacation-request{
     background: url("images/advantage-icon-3 1.svg")no-repeat;
     padding-top: 34px;
 }
-.block4{
+.block4__image{
     background: url("images/advantage-icon-4 1.svg")no-repeat;
     padding-top: 34px;
 }
@@ -520,24 +520,23 @@ header>ul>li>a:hover{
     height: 90%;
     
 }
-.sputnik-section>.block2:not(button){
+.sputnik-section>.blocksputnik:not(button){
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(to bottom, #051937, #111111, #292E35);
+    
     
 }
 .sputnik-section{
-    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
-
+    background: url('images/background-stars.jpg') no-repeat ;
 
 }
-.block2 h1{
+.blocksputnik h1{
     margin-top: 20px;
     font-size: 30px;
     color: orangered;
     margin-right: 100px;
 }
-.block2-text{
+.blocksputnik-text{
     line-height: 30px;
     color:white
 }
@@ -547,10 +546,10 @@ header>ul>li>a:hover{
     margin-left: 70px;
     width: 80%;
 }
-.block2-heading{
+.blocksputnik-heading{
   font-size: 20px;
 }
-.block2-text{
+.blocksputnik-text{
     margin-top: 70px;
 }
 .sputnik-section>button{
@@ -558,7 +557,7 @@ header>ul>li>a:hover{
 }
 .link a {
     color: orange;
-    font-size: 100pxw;
+
 }
 
 .link__button>a{
@@ -590,7 +589,7 @@ button.link__button:hover{
 }
 
 .block-diary{
-    background-color:#292E35;
+    
     padding: 40px 0 40px 0;
     display: flex;
     justify-content: space-evenly;
@@ -617,7 +616,7 @@ button.link__button:hover{
     border-radius: 20px; /* скругляем углы */
     font-size: 16px; /* размер шрифта */
     font-weight: bold; /* жирный шрифт */
-    transition-duration: 1s;    
+    transition-duration: 1s;
 }
 .button button:hover{
     height: 100px;
@@ -644,11 +643,13 @@ ul>li>b{
 .diary-belka p{
     color:yellowgreen;
 }
-
+.diary-belka{
+    background:url("images//background-stars.jpg");
+}
 .project-about{
     display: flex;
     justify-content: space-evenly;
-    background-color: #292E35;
+    background: url('images/background-stars.jpg')no-repeat;
     padding: 40px 0 40px 0;
 }
 .title{
